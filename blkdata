@@ -1,7 +1,7 @@
 section .data
     x db 6,8,1,9,4
     len equ $ - x
-    y times 4 db 0
+    y db 0
     
 section .bss
     big resb 2
